@@ -4,23 +4,28 @@ body{
 }
 
 header{
-    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
     width: 100vw;
-    height: 7vh;
+    background-color: darkgoldenrod;
+}
+
+header .login{
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+}
+
+header .nav{
+    height: 80px;
+    width: 1000px;
+    margin: 10px;
     display: flex;
 }
 
-.butao a{
-    display: inline-block;
-    position: relative;
-    left: 400px;
-    font-size: 12px;
-    text-decoration: none;
-    color: rgb(190, 186, 138);
-}
-
-.logo img{
-    margin: 10px 10px 10px;
-    width: 140px;
-    height: 60px;
+header .logo{
+    height: 80px;
+    width: 200px;
+    margin: 10px;
 }
