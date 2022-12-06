@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(48, 48, 48);
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+}
+
+.butao a{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(190, 186, 138);
+}
+
+.logo img{
+    margin: 10px 10px 10px;
+    width: 140px;
+    height: 60px;
+}
